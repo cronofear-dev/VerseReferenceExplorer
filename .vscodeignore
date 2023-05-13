@@ -8,3 +8,7 @@ vsc-extension-quickstart.md
 **/.eslintrc.json
 **/*.map
 **/*.ts
+doc
+tiddlymap/script_sample.js
+README_INTERNAL.md
+*.vsix

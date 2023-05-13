@@ -1,9 +1,9 @@
 {
-  "name": "verse-helper",
+  "name": "VerseReferenceExplorer",
   "displayName": "Verse Reference Explorer & Helper",
   "description": "WIP Visual Reference Explorer & Helper for the Verse Programming Language created for UEFN (Unreal Editor for Fortnite) by Epic Games",
   "version": "0.9.0",
-  "publisher": "Cubylab Games",
+  "publisher": "CubylabGames",
   "engines": {
     "vscode": "^1.67.0"
   },
