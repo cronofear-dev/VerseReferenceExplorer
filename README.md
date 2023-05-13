@@ -4,10 +4,6 @@ WIP Visual Reference Explorer & Helper for the Verse Programming Language create
 
 **NOTE**: This extension is meant to work together with the official `Verse` LSP extension made by Epic Games. It won't work without it.
 
-Contact Info: 
-- https://cubylab.com/
-- cronofear.v2@gmail.com
-
 # How to install
 
 Go to VSCode->Extensions->`... Menu`->Select `Install from VSIX`
