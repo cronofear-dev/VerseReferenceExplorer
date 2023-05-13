@@ -11,10 +11,10 @@ Contact Info:
 # Features
 
 ### Generate a Visual Reference graph from a given symbol in the workspace.
-![](https://imgur.com/oZPVBzw)
+![](https://raw.githubusercontent.com/cronofear-dev/VerseReferenceExplorer/main/doc/viewRefExplorer.gif)
 
 ### `Ctrl+Click` on a symbol in the graph to navigate back to its location in VSCode.
-![](./CHANGELOG.mddoc/goToLocationInVSCode.gif)
+![](https://raw.githubusercontent.com/cronofear-dev/VerseReferenceExplorer/main/doc/viewRefExplorer.gif)
 
 ### Other features
 
