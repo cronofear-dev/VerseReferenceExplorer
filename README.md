@@ -14,7 +14,7 @@ Go to VSCode->Extensions->`... Menu`->Select `Install from VSIX`
 ![](https://raw.githubusercontent.com/cronofear-dev/VerseReferenceExplorer/main/doc/viewRefExplorer.gif)
 
 ### `Ctrl+Click` on a symbol in the graph to navigate back to its location in VSCode.
-![](https://raw.githubusercontent.com/cronofear-dev/VerseReferenceExplorer/main/doc/viewRefExplorer.gif)
+![](https://raw.githubusercontent.com/cronofear-dev/VerseReferenceExplorer/main/doc/goToLocationInVSCode.gif)
 
 ### Other features
 
