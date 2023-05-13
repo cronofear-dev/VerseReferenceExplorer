@@ -6,7 +6,8 @@ WIP Visual Reference Explorer & Helper for the Verse Programming Language create
 
 # How to install
 
-Go to VSCode->Extensions->`... Menu`->Select `Install from VSIX`
+- Download the .vsix file from the `release` page in this repo.
+- Go to VSCode->Extensions->`... Menu`->And select `Install from VSIX`
 
 # Features
 
