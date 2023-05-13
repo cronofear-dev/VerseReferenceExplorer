@@ -9,6 +9,6 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 doc
-tiddlymap/script_sample.js
 README_INTERNAL.md
 *.vsix
+tiddlymap/script_sample.js

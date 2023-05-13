@@ -34,10 +34,6 @@
       {
         "command": "verseHelper.viewReferenceExplorerCommand",
         "title": "View Reference Explorer"
-      },
-      {
-        "command": "verseHelper.focusSymbolCommand",
-        "title": "Go to Reference Explorer (ToDo)"
       }
     ],
     "menus": {
@@ -46,12 +42,7 @@
           "when": "resourceLangId == verse",
           "command": "verseHelper.viewReferenceExplorerCommand",
           "group": "navigation@0"
-        },
-        {
-            "when": "resourceLangId == verse",
-            "command": "verseHelper.focusSymbolCommand",
-            "group": "navigation@1"
-          }
+        }
       ]
     }
   },
