@@ -1,0 +1,83 @@
+{
+  "name": "verse-helper",
+  "displayName": "Verse Reference Explorer & Helper",
+  "description": "WIP Visual Reference Explorer & Helper for the Verse Programming Language created for UEFN (Unreal Editor for Fortnite) by Epic Games",
+  "version": "0.9.0",
+  "publisher": "Cubylab Games",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Visualization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronofear-dev/VerseReferenceExplorer"
+},
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "verse",
+        "aliases": [
+          "Verse",
+          "verse"
+        ],
+        "extensions": [
+          ".verse"
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "command": "verseHelper.viewReferenceExplorerCommand",
+        "title": "View Reference Explorer"
+      },
+      {
+        "command": "verseHelper.focusSymbolCommand",
+        "title": "Go to Reference Explorer (ToDo)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "resourceLangId == verse",
+          "command": "verseHelper.viewReferenceExplorerCommand",
+          "group": "navigation@0"
+        },
+        {
+            "when": "resourceLangId == verse",
+            "command": "verseHelper.focusSymbolCommand",
+            "group": "navigation@1"
+          }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/node-uuid": "^0.0.29",
+    "@types/vscode": "^1.67.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "@vscode/test-electron": "^2.3.0",
+    "eslint": "^8.36.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.8"
+  }
+}
